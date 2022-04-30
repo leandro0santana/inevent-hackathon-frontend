@@ -3,8 +3,8 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
-import { Input } from "../Form/Input";
-import { Header } from "../Header";
+import { Input } from "../components/Form/Input";
+import { Header } from "../components/Header";
 
 interface DataFormRegister {
   nome: string;
